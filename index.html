@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JavaScript Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="./IMG_9137.JPG" class="logo" alt="">
+    <h1>JavaScript Quiz</h1>
+
+    <label for="student-name">Enter Your Full Name:</label>
+    <input type="text" id="student-name" placeholder="Full Name" />
+
+    <div id="timer">Time Left: 20:00</div>
+
+    <h1 style="color: red;">PLEASE DONT REFRESH THIS PAGE</h1>
+
+    <div id="quiz-box">
+      <p id="question"></p>
+      <ul id="options"></ul>
+      <button id="next">Next</button>
+    </div>
+    <div id="quiz-controls">
+  <button id="prev">Previous</button>
+  <button id="next">Next</button>
+</div>
+
+    <div id="result" class="hidden">
+      <h2>Your Score: <span id="score"></span>/50</h2>
+      <a id="email-link">Send Score via Email</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+

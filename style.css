@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+h1 {
+  text-align: center;
+}
+
+#student-name {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 0 20px;
+  box-sizing: border-box;
+}
+
+#timer {
+  font-weight: bold;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+#question {
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+.logo {
+    width: 400px;
+    justify-content: center;
+    margin: auto 70px;
+}
